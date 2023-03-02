@@ -1,0 +1,28 @@
+{
+  "name": "@fslab/fslab-styles",
+  "version": "1.0.0",
+  "description": "npm package for FsLab web styles",
+  "main": "index.css",
+  "scripts": {
+    "build": "npx sass --no-source-map sass/main.sass:dist/main.min.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fslaborg/fslab-styles.git"
+  },
+  "keywords": [
+    "fslab",
+    "style",
+    "css"
+  ],
+  "author": "Kevin Schneider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fslaborg/fslab-styles/issues"
+  },
+  "homepage": "https://github.com/fslaborg/fslab-styles#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "sass": "^1.58.3"
+  }
+}
