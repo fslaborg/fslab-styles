@@ -1,5 +1,7 @@
 # fslab-styles
 
+![](https://img.shields.io/npm/v/@fslab/fslab-styles)
+
 npm package for FsLab web styles
 
 as seen on https://fslab.org.
