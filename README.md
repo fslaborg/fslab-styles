@@ -6,12 +6,12 @@ npm package for FsLab web styles
 
 as seen on https://fslab.org.
 
-Contains styling for the following components:
-- header
-- footer
-- color schemes
+- Set background color and emphasis via mixins (e.g. `has-bg`) and predefined classes (e.g `has-bg-darkmagenta`)
+- Use component styling for:
+  - package cards (e.g. as seen on https://fslab.org/packages.html)
+  - Main page text fields (as seen on https://fslab.org)
 
-based on [bulma](https://bulma.io/)
+based on [bulma](https://bulma.io/), uses [prism.js](https://prismjs.com/download.html#themes=prism-twilight&languages=clike+fsharp) for syntax highlighting
 
 ## install
 

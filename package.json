@@ -1,13 +1,13 @@
 {
   "name": "@fslab/fslab-styles",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "npm package for FsLab web styles",
   "main": "dist/fslab-styles.min.css",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "npx sass --no-source-map sass/main.sass:dist/fslab-styles.min.css --style compressed"
+    "build": "npx sass --no-source-map sass/main.sass:dist/fslab-styles.css sass/color-classes.sass:dist/fslab-colors.css sass/components:dist/components --style compressed"
   },
   "repository": {
     "type": "git",

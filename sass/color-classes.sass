@@ -1,0 +1,104 @@
+@charset "utf-8"
+@import mixins
+@import colors
+
+// (text) color classes
+.is-white 
+    color: $colorWhite !important
+
+.is-magenta 
+    color: $fslabMagenta
+
+.is-lightmagenta 
+    color: $fslabLightMagenta
+
+.is-darkmagenta 
+    color: $fslabDarkMagenta
+
+.is-sapphire 
+    color: $fslabSapphire
+
+.is-aquamarine 
+    color: $fslabAquamarine
+
+// background color classes
+.has-bg-white 
+    @include has-bg(100%,$colorWhite,$colorWhite)
+
+.has-bg-magenta 
+    @include has-bg(100%,$fslabMagenta,$fslabMagenta)
+
+.has-bg-lightmagenta 
+    @include has-bg(100%,$fslabLightMagenta,$fslabLightMagenta)
+
+.has-bg-darkmagenta 
+    @include has-bg(100%,$fslabDarkMagenta,$fslabDarkMagenta)
+
+.has-bg-sapphire 
+    @include has-bg(100%,$fslabSapphire,$fslabSapphire)
+
+.has-bg-aquamarine 
+    @include has-bg(100%,$fslabAquamarine,$fslabAquamarine)
+
+.has-bg-three-fourths-magenta 
+    @include has-bg(75%,$fslabMagenta,$transparent)
+
+.has-bg-three-fourths-lightmagenta 
+    @include has-bg(75%,$fslabLightMagenta,$transparent)
+
+.has-bg-three-fourths-darkmagenta 
+    @include has-bg(75%,$fslabDarkMagenta,$transparent)
+
+.has-bg-three-fourths-sapphire 
+    @include has-bg(75%,$fslabSapphire,$transparent)
+
+.has-bg-three-fourths-aquamarine 
+    @include has-bg(75%,$fslabAquamarine,$transparent)
+
+
+.has-bg-one-fourth-magenta 
+    @include has-bg(25%,$fslabMagenta,$transparent)
+
+.has-bg-one-fourth-lightmagenta 
+    @include has-bg(25%,$fslabLightMagenta,$transparent)
+
+.has-bg-one-fourth-darkmagenta 
+    @include has-bg(25%,$fslabDarkMagenta,$transparent)
+
+.has-bg-one-fourth-sapphire 
+    @include has-bg(25%,$fslabSapphire,$transparent)
+
+.has-bg-one-fourth-aquamarine 
+    @include has-bg(25%,$fslabAquamarine,$transparent)
+
+
+// emphasis (underline) classes
+.is-emphasized-darkmagenta 
+    @include is-emphasized($fslabDarkMagenta)
+
+.is-emphasized-magenta 
+    @include is-emphasized($fslabMagenta)
+
+.is-emphasized-lightmagenta 
+    @include is-emphasized($fslabLightMagenta)
+
+.is-emphasized-sapphire 
+    @include is-emphasized($fslabSapphire)
+
+.is-emphasized-aquamarine 
+    @include is-emphasized($fslabAquamarine)
+
+.is-strongly-emphasized-darkmagenta 
+    @include is-strongly-emphasized($fslabDarkMagenta)
+
+.is-strongly-emphasized-magenta 
+    @include is-strongly-emphasized($fslabMagenta)
+
+.is-strongly-emphasized-lightmagenta 
+    @include is-strongly-emphasized($fslabLightMagenta)
+
+.is-strongly-emphasized-sapphire 
+    @include is-strongly-emphasized($fslabSapphire)
+
+.is-strongly-emphasized-aquamarine 
+    @include is-strongly-emphasized($fslabAquamarine)

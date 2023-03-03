@@ -1,0 +1,31 @@
+@charset "utf-8"
+
+//set background color with the optional setting of splitting it with another color
+@mixin has-bg($fillPercentage,$bg-color1,$bg-color2) 
+    @if ($fillPercentage < 100%) 
+        // background: $bg-color1
+        background:  linear-gradient(0deg, $bg-color1 $fillPercentage, $bg-color2 $fillPercentage)
+        color: $colorWhite
+    @else 
+        background-color: $bg-color1
+        color: $colorWhite
+    
+
+    @media only screen and (max-width: 400px) 
+
+        @if ($fillPercentage < 100%) 
+            $newPercentage: $fillPercentage + 5%
+            // background: $bg-color1
+            background:  linear-gradient(0deg, $bg-color1 $newPercentage, $bg-color2 $newPercentage)
+            color: $colorWhite
+        @else 
+            background-color: $bg-color1
+            color: $colorWhite
+
+//set emphasis (underline) color
+@mixin is-emphasized($color) 
+    border-bottom: 5px solid $color
+
+//set strong emphasis (underline) color
+@mixin is-strongly-emphasized($color) 
+    border-bottom: 10px solid $color
